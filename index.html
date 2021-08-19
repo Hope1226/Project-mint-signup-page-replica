@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="icons/intuit.svg">
+  <title>Mint signup page replica</title>
+   <!--[if it IE 9]>
+  <script>
+    let e = ("abbr,article,aside,audio,canvas,datalist,details,"+
+    "figure,footer,header,hgroup,mark,menu,meter,nav,output."+
+    "progrss,section,time,video").split(",");
+    for (let i = 0; i < e.length; i++) {
+      document.createElement(e[i]);
+    }
+  </script>
+  <! [endif]-->
+</head>
+<body>
+  <header>
+    <section class="head-text">
+      <p>Already have an Intuit account?</p>
+      <a href="#">I forgot my User ID or Password </a>
+    </section>
+    <button>
+      <img src="icons/lock_white_24dp.svg">
+      Sign In
+    </button>
+  </header>
+  <main>
+    <h1>intuit</h1>
+    <ul>
+      <li><a href="#">mint</a></li>
+      <li><a href="#">quickbooks</a></li>
+      <li><a href="#">turbotax</a></li>
+    </ul>
+    <section class="form-conteiner">
+      <header>
+        <h1>Create an Intuit account</h1>
+        <p>One account for everything Intuit, including Mint.</p>
+        <a href="#">Learn more</a>
+      </header>
+      <form action="#">
+        <fieldset class="account-info">
+          <label for="email">
+            Email address
+            <input type="email" id="email" name="user_email">
+          </label>
+          <label for="number">
+            Phone (recommended)
+            <input type="tel" id="number" name="user_phonenumber">
+          </label>
+          <label for="pass">
+            Password
+            <input type="text" id="pass" name="password" >
+          </label>
+        </fieldset>
+        <fieldset class="account-action">
+          <button type="submit">
+            <span><img src="icons/lock_white_24dp.svg" alt="lcok icon"></span>Create Account
+          </button>
+        </fieldset>
+      </form>
+      <small>
+        By selecting Create Account, you agree to our <a href="#">Terms</a>
+        and have read and acknowledge our <a href="#"> Global Privacy Statement.</a>
+      </small>
+      <footer class="form-footer">
+        <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and 
+          <a href="#"> Terms of Use.</a>
+        </small>
+      </footer>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+      </ul>
+      <small class="main-footer">
+        &copy;2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.
+      </small>
+    </nav>
+
+  </footer>
+  
+</body>
+</html>
